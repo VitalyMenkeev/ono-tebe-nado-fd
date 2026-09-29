@@ -80,11 +80,25 @@
   font-size: 100px;
   line-height: 115px;
   text-transform: uppercase;
+  display: grid;
+  gap: 20px;
 }
 
 .letter-spacing-extended {
   letter-spacing: 30%;
 }
+
+/* правила для смещения слов в подзаголовке обложки */
+
+.custom-letter-spaceing-1 {
+  letter-spacing: 21px;
+}
+
+.custom-letter-spaceing-2 {
+  letter-spacing: -4px;
+}
+
+/* конец правил для смещения слов в подзаголовке обложки */
 
 .no-letter-spacing {
   letter-spacing: 0;
